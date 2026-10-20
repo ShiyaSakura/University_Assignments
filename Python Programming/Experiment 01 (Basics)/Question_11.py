@@ -11,7 +11,7 @@ def print_truth_table(operator: str) -> None:
     }
 
     if operator not in operations:
-        print("Invalid Input, Please Enter a Valid Bitwise Operator")
+        print("Invalid Input, Please Enter a Valid Bitwise Operator.")
         return
 
     operation = operations[operator]
