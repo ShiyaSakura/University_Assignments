@@ -8,7 +8,7 @@ def main() -> None:
         print("Invalid Input, Please Enter a Valid Number.")
         return
     
-    raw_bool = input("Please Enter a Boolean Value (True/False): ").strip().lower()
+    raw_bool = input("Please Enter a Boolean Value (True/False) : ").strip().lower()
     
     if raw_bool not in ["true", "false"]:
         print("Invalid Input, Please Enter True Or False.")
